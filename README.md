@@ -33,8 +33,11 @@ The engine calculates standard institutional risk metrics, acknowledging the lep
 * `matplotlib`
 
 ## How to Run
+Ensure you have the necessary quantitative libraries installed in your Python environment:
+
 ```bash
-git clone [https://github.com/yourusername/vix-kalman-engine.git](https://github.com/yourusername/vix-kalman-engine.git)
-cd vix-kalman-engine
-pip install -r requirements.txt
-python vix_kalman.py
+pip install numpy pandas yfinance pykalman scipy matplotlib
+
+git clone [https://github.com/bloodrepaer/nifty-vix-kalman.git](https://github.com/bloodrepaer/nifty-vix-kalman.git)
+cd nifty-vix-kalman
+python vix_kalman_engine.py
