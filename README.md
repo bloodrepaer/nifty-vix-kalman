@@ -37,4 +37,4 @@ The engine calculates standard institutional risk metrics, acknowledging the lep
 git clone [https://github.com/yourusername/vix-kalman-engine.git](https://github.com/yourusername/vix-kalman-engine.git)
 cd vix-kalman-engine
 pip install -r requirements.txt
-python vix_kalman_engine.py
+python vix_kalman.py
